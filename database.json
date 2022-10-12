@@ -1,0 +1,194 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "fullName": "Franco Stevens",
+        "email": "dah.man247@gmail.com",
+        "isStaff": false
+      },
+      {
+        "id": 2,
+        "fullName": "Jessica Savage",
+        "email": "savageart@yahoo.com",
+        "isStaff": false
+      },
+      {
+        "id": 3,
+        "fullName": "Bob Pants",
+        "email": "bobpants@gmail.com",
+        "isStaff": false
+      },
+      {
+        "id": 4,
+        "fullName": "Kandy Bobbins",
+        "email": "kandy@kandykorner.com",
+        "isStaff": true
+      },
+      {
+        "id": 5,
+        "fullName": "Franny Crumples",
+        "email": "fanny@kandykorner.com",
+        "isStaff": true
+      },
+      {
+        "id": 6,
+        "fullName": "Karl Bobbins",
+        "email": "karl@kandykorner.com",
+        "isStaff": true
+      }
+    ],
+    "customers": [
+      {
+        "id": 1,
+        "address": "2802 Zulu Rocks",
+        "phoneNumber": "852-837-9713",
+        "userId": 2
+      },
+      {
+        "id": 2,
+        "address": "56849 Faded Way",
+        "phoneNumber": "202-244-7090",
+        "userId": 1
+      },
+      {
+        "id": 3,
+        "address": "7346 Rich Road",
+        "phoneNumber": "(507) 720-1157",
+        "userId": 3
+      }
+    ],
+    "employees": [
+      {
+        "id": 1,
+        "fullName": "Kandy Bobbins",
+        "email": "kandy@kandykorner.com",
+        "userId": 4,
+        "locationId": 1
+      },
+      {
+        "id": 2,
+        "fullName": "Franny Crumples",
+        "email": "fanny@kandykorner.com",
+        "userId": 5,
+        "locationId": 2
+      },
+      {
+        "id": 3,
+        "fullName": "Karl Bobbins",
+        "email": "karl@kandykorner.com",
+        "userId": 6,
+        "locationId": 3
+      }
+    ],
+    "locations": [
+        {
+          "id": 1,
+          "squareFootage": 5410
+          
+        },
+        {
+          "id": 2,
+          "squareFootage": 4201
+          
+        },
+        {
+          "id": 3,
+          "squareFootage": 2200
+          
+        }
+    ],
+    "products": [
+        {
+          "id": 1,
+          "name": "Deez Nutty Bois",
+          "typeId": 3
+          
+        },
+        {
+          "id": 2,
+          "name": "Chocolate Buhholes",
+          "typeId": 1
+        
+        },
+        {
+          "id": 3,
+          "name": "Gummy UFOs",
+          "typeId": 2
+          
+        },
+        {
+          "id": 4,
+          "name": "Easter Bunny",
+          "typeId": 1
+            
+          },
+          {
+          "id": 5,
+          "name": "Your Mom",
+          "typeId": 3
+            
+          },
+          {
+          "id": 6,
+          "name": "Karl's Kandy",
+          "typeId": 1
+            
+          },
+          {
+          "id": 7,
+          "name": "Strawberry Buttons",
+          "typeId": 3
+            
+          },
+          {
+          "id": 8,
+          "name": "USA Coins",
+          "typeId": 1
+            
+          },
+          {
+          "id": 9,
+          "name": "Kandy's Cigarettes",
+          "typeId": 2
+              
+            }
+
+    ],
+    "productTypes": [
+        {
+          "id": 1,
+          "type": "chocolate"
+         
+        },
+        {
+          "id": 2,
+          "type": "gummy"
+         
+        },
+        {
+          "id": 3,
+          "type": "hard candy"
+        
+        }
+    ],
+    "purchases": [
+        {
+          "id": 1,
+          "customerId": 3,
+          "productId": 9,
+          "amount": 4
+        },
+        {
+          "id": 2,
+          "customerId": 2,
+          "productId": 2,
+          "amount": 5
+        },
+        {
+          "id": 3,
+          "customerId": 1,
+          "productId": 9,
+          "amount": 6
+        }
+    ]
+}
